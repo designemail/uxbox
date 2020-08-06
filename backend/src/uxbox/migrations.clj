@@ -67,7 +67,11 @@
 
     {:desc "Mark files shareable"
      :name "0013-mark-files-shareable"
-     :fn (mg/resource "migrations/0013-mark-files-shareable.sql")}]})
+     :fn (mg/resource "migrations/0013-mark-files-shareable.sql")}
+
+    {:desc "Improve and partition task related tables"
+     :name "0014-improve-tasks-tables"
+     :fn (mg/resource "migrations/0014-improve-tasks-tables.sql")}]})
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Entry point
